@@ -10,14 +10,14 @@
 
 # <center>PROCESSO CRIATIVO</center>
 
-1. para a parte web (cliente) foi escolhido usar flutter por ser um framework facilitador para desenvolver diversas aplicações tais como: mobile, web e desktop.
+1. Para a parte web (cliente) foi escolhido usar flutter por ser um framework facilitador para desenvolver diversas aplicações tais como: mobile, web e desktop.
 Escolhi flutter pelo fato de que quando compilado, o aplicativo torna-se nativo aumentando assim seu desempenho para acessar os dispositivos diretamente.
 
 2. Na parte de login escolhi usar Cognito com federated de redes sociais para o cadastro e login na plataforma de e-commerce ser o mais simples possível.
 
-3. escolhi usar Api Gateway para expor minhas apis com WAF para ajudar na parte de segurança das mesmas e assim deixar a parte front-end desacoplada e independente do back-end.
+3. Escolhi usar Api Gateway para expor minhas apis com WAF para ajudar na parte de segurança das mesmas e assim deixar a parte front-end desacoplada e independente do back-end.
 
-4. escolhi usar alb (application load balance) para que seja feita a distribuíção da tráfego de requisições para o pods da melhor maneira.
+4. Escolhi usar alb (application load balance) para que seja feita a distribuíção da tráfego de requisições para o pods da melhor maneira.
 
 5. CloudWatch para log e observability tanto da aplicação como do Api Gateway para resolução de problemas que venham acontecer.
 
