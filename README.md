@@ -13,7 +13,7 @@
 1. para a parte web (cliente) foi escolhido usar flutter por ser um framework facilitador para desenvolver diversas aplicações tais como: mobile, web e desktop.
 Escolhi flutter pelo fato de que quando compilado, o aplicativo torna-se nativo aumentando assim seu desempenho para acessar os dispositivos diretamente.
 
-2. Na parte de login escolhi usar federated de redes sociais para assim o cadastro e login na plataforma de e-commerce ser o mais simples possível.
+2. Na parte de login escolhi usar Cognito com federated de redes sociais para o cadastro e login na plataforma de e-commerce ser o mais simples possível.
 
 3. escolhi usar Api Gateway para expor minhas apis com WAF para ajudar na parte de segurança das mesmas e assim deixar a parte front-end desacoplada e independente do back-end.
 
